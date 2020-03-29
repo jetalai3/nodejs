@@ -23,3 +23,7 @@ node main -s 1 -a encrypt -i input.txt                  file/stdout input/output
 node main -s 1 -a encrypt -o output.txt                 stdin/file input/output
 node main -s 1 -a decrypt -i input.txt -o output.txt    file/file input/output
 ```
+
+#### Self-evaluation
+All 10 cross-check requirements are implemented
+Total: 100\100
