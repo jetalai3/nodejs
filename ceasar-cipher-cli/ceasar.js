@@ -3,6 +3,9 @@ const parseCLIArgs = require('./util/parseCLIArgs');
 const readStream = require('./streams/readStream');
 const transformStream = require('./streams/transformStream');
 const writeStream = require('./streams/writeStream');
+const handleErrors = require('./util/handleErrors');
+
+handleErrors();
 
 const options = parseCLIArgs();
 
