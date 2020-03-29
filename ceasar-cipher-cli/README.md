@@ -3,9 +3,9 @@
 ### CLI app implementing Caesar's shift. 
 
 ### Usage:
-```
-node ceasar options
-```
+1.Run `npm install` from repository root folder
+
+2.Run `node ceasar options`
 
 Options:
 ```
