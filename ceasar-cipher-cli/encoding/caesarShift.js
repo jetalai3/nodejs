@@ -1,4 +1,4 @@
-function ceasarShift(str, amount, action) {
+function caesarShift(str, amount, action) {
   let output = '';
 
   amount = action === 'decode' ? -amount : amount;
@@ -22,4 +22,4 @@ function ceasarShift(str, amount, action) {
   return output;
 }
 
-module.exports = ceasarShift;
+module.exports = caesarShift;

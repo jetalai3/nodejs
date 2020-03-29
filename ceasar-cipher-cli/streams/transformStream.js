@@ -1,5 +1,5 @@
 const { Transform } = require('stream');
-const caesarShift = require('../encoding/ceasarShift');
+const caesarShift = require('../encoding/caesarShift');
 
 const transformStream = (shift, action) => {
   return new Transform({
